@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="95">
+    <author>Leo</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Thunderfarming Rollbuster2000</en>
+		<de>Thunderfarming Rollbuster2000</de>
+    </title>
+    <description>
+        <en><![CDATA[
+Category: Rollers
+Price: $46,500
+Required power: 120 hp
+Working width: 12.3m
+Working speed: 20 kph
+]]></en>
+		<de><![CDATA[
+Shopkategorie: Walzen
+Preis: 46.500€
+Benötigte Leistung: 120 PS
+Arbeitsbreite: 12,3m
+Arbeitsgeschwindigkeit: 20 km/h
+]]></de>
+    </description>
+    <iconFilename>store/icon_Rollbuster2000.dds</iconFilename>
+    <storeItems>
+        <storeItem xmlFilename="xml/Rollbuster2000.xml"/>
+    </storeItems>
+	<brands>
+        <brand title="Thunderfarming" image="brand/brand_ThF.dds" name="Thunderfarming"/>
+    </brands>
+	<multiplayer supported="true"/>
+</modDesc>
