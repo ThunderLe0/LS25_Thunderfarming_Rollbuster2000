@@ -361,6 +361,21 @@
         <bendingNode minX="-3.7" maxX="0.565" minZ="-1.15" maxZ="0.75" yOffset="-0.45" node="bendingNodeRight"/>
         <bendingNode minX="-2" maxX="0" minZ="-0.7" maxZ="0.15" yOffset="-0.6" node="bendingNodeRightOuter"/>
     </foliageBending>
+        <baseColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint" title="Gestell">
+        <baseColorConfiguration name="Thunderfarming Black" color="0 0 0" isDefault="true" />
+        <material materialSlotName="Body" />
+    </baseColorConfigurations>
+    <designColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint" title="Rollen">
+        <designColorConfiguration name="Thunderfarming Grau" color="SHARED_GREY5" isDefault="true" />
+        <material materialSlotName="Roll" />
+    </designColorConfigurations>
+    <designColor2Configurations useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint" title="Details">
+        <designColor2Configuration name="Thunderfarming Grau" color="SHARED_GREY5" isDefault="true" />
+        <material materialSlotName="Detail" />
+    </designColor2Configurations>
+    <rimColorConfigurations useDefaultColors="true">
+        <rimColorConfiguration materialTemplateName="RIM_CONFIGURATION_BLACK" />
+    </rimColorConfigurations>
     <wearable wearDuration="480" workMultiplier="5" fieldMultiplier="2"/>
     <washable dirtDuration="90" washDuration="1" workMultiplier="6" fieldMultiplier="2"/>
     <i3dMappings>
