@@ -280,37 +280,37 @@
             <sound template="vibratingImp" startTime="0.01" direction="-1" volumeScale="1" pitchScale="1.6" linkNode="supportArm"/>
         </animation>
         <animation name="folding">
-            <part node="armBack" startTime="0" endTime="2.5" startRot="5 0 0" endRot="-95 0 0"/>
-            <part node="armLeftJoint" startTime="2.5" endTime="9" startRot="0 0 0" endRot="0 0 89.5"/>
-            <part node="armRightJoint" startTime="2.5" endTime="9" startRot="0 0 0" endRot="0 0 -89.5"/>
-            <part node="axleLeft" startTime="2.5" endTime="9" startRot="0 0 0" endRot="0 0.25 0"/>
-            <part node="axleLeft_physic" startTime="2.5" endTime="9" startRot="0 0 0" endRot="0 0.25 0"/>
-            <part node="axleRight" startTime="2.5" endTime="9" startRot="0 0 0" endRot="0 -0.25 0"/>
-            <part node="axleRight_physic" startTime="2.5" endTime="9" startRot="0 0 0" endRot="0 -0.25 0"/>
-            <part node="lockArm" startTime="9.0" endTime="9.3" startRot="0 0 30" endRot="0 0 0"/>
+            <part node="armBack" startTime="0" endTime="1.5" startRot="5 0 0" endRot="-95 0 0"/>
+            <part node="armLeftJoint" startTime="1.5" endTime="4" startRot="0 0 0" endRot="0 0 89.5"/>
+            <part node="armRightJoint" startTime="1.5" endTime="4" startRot="0 0 0" endRot="0 0 -89.5"/>
+            <part node="axleLeft" startTime="1.5" endTime="4" startRot="0 0 0" endRot="0 0.25 0"/>
+            <part node="axleLeft_physic" startTime="1.5" endTime="4" startRot="0 0 0" endRot="0 0.25 0"/>
+            <part node="axleRight" startTime="1.5" endTime="4" startRot="0 0 0" endRot="0 -0.25 0"/>
+            <part node="axleRight_physic" startTime="1.5" endTime="4" startRot="0 0 0" endRot="0 -0.25 0"/>
+            <part node="lockArm" startTime="4.0" endTime="4.3" startRot="0 0 30" endRot="0 0 0"/>
             <part componentJointIndex="1" startTime="0" endTime="0.5" startRotLimit="0 0 15" endRotLimit="0 0 0"/>
             <part componentJointIndex="2" startTime="0" endTime="0.5" startRotLimit="0 0 15" endRotLimit="0 0 0"/>
             <part componentJointIndex="3" startTime="0" endTime="0.5" startRotLimit="0 0 15" endRotLimit="0 0 0"/>
             <part componentJointIndex="4" startTime="0" endTime="0.5" startRotLimit="0 0 15" endRotLimit="0 0 0"/>
-            <part node="root1Animated_joint" startTime="0.0" endTime="2.5" startRot="139.721 -35.884 -177.475" endRot="184.856 -18.506 -177.116"/>
-            <part node="root2Animated_joint" startTime="0.0" endTime="2.5" startRot="0.0 0.0 0.0" endRot="-45.737 0.0 0.0"/>
-            <part componentIndex="1" startTime="0" endTime="2.5" startCenterOfMass="0 0.3 1" endCenterOfMass="0 0.3 0"/>
-            <sound template="hydraulicClose01" startTime="0.01" endTime="2.5" direction="1" volumeScale="2.5" pitchScale="0.7" fadeIn="0.1" fadeOut="0.1"/>
-            <sound template="hydraulicOpen06" startTime="0.01" endTime="2.5" direction="-1" volumeScale="0.9" pitchScale="0.5" fadeIn="0.1" fadeOut="0.1"/>
-            <sound template="hydraulicOpen02" startTime="0.01" endTime="2.5" direction="-1" volumeScale="1.1" pitchScale="1.5" fadeIn="0.1" fadeOut="0.1"/>
-            <sound template="hydraulicClose03" startTime="2.5" endTime="9" direction="0" volumeScale="2.5" pitchScale="0.7" fadeIn="0.1" fadeOut="0.1"/>
-            <sound template="hydraulicOpen05" startTime="2.5" endTime="9" direction="0" volumeScale="1.5" pitchScale="1.7" fadeIn="0.1" fadeOut="0.1"/>
-            <sound template="vibratingImp" startTime="2.5" direction="0" volumeScale="1.2" pitchScale="1"/>
-            <sound template="foldStartMed02" startTime="2.5" direction="0" volumeScale="3.2" pitchScale="0.7"/>
-            <sound template="clackVar4" startTime="2.5" direction="0" volumeScale="2.2" pitchScale="0.6"/>
+            <part node="root1Animated_joint" startTime="0.0" endTime="1.5" startRot="139.721 -35.884 -177.475" endRot="184.856 -18.506 -177.116"/>
+            <part node="root2Animated_joint" startTime="0.0" endTime="1.5" startRot="0.0 0.0 0.0" endRot="-45.737 0.0 0.0"/>
+            <part componentIndex="1" startTime="0" endTime="1.5" startCenterOfMass="0 0.3 1" endCenterOfMass="0 0.3 0"/>
+            <sound template="hydraulicClose01" startTime="0.01" endTime="1.5" direction="1" volumeScale="2.5" pitchScale="0.7" fadeIn="0.1" fadeOut="0.1"/>
+            <sound template="hydraulicOpen06" startTime="0.01" endTime="1.5" direction="-1" volumeScale="0.9" pitchScale="0.5" fadeIn="0.1" fadeOut="0.1"/>
+            <sound template="hydraulicOpen02" startTime="0.01" endTime="1.5" direction="-1" volumeScale="1.1" pitchScale="1.5" fadeIn="0.1" fadeOut="0.1"/>
+            <sound template="hydraulicClose03" startTime="1.5" endTime="4" direction="0" volumeScale="2.5" pitchScale="0.7" fadeIn="0.1" fadeOut="0.1"/>
+            <sound template="hydraulicOpen05" startTime="1.5" endTime="4" direction="0" volumeScale="1.5" pitchScale="1.7" fadeIn="0.1" fadeOut="0.1"/>
+            <sound template="vibratingImp" startTime="1.5" direction="0" volumeScale="1.2" pitchScale="1"/>
+            <sound template="foldStartMed02" startTime="1.5" direction="0" volumeScale="3.2" pitchScale="0.7"/>
+            <sound template="clackVar4" startTime="1.5" direction="0" volumeScale="2.2" pitchScale="0.6"/>
             <sound template="vibratingImp" startTime="0.7" direction="-1" volumeScale="1.2" pitchScale="1"/>
             <sound template="foldStartMed02" startTime="0.7" direction="-1" volumeScale="3.2" pitchScale="0.7"/>
             <sound template="metalImpHigh01" startTime="0.7" direction="-1" volumeScale="0.8" pitchScale="0.7"/>
-            <sound template="vibratingImp" startTime="9" direction="1" volumeScale="1.2" pitchScale="0.8"/>
-            <sound template="foldStartMed02" startTime="9" direction="1" volumeScale="3.2" pitchScale="0.7"/>
-            <sound template="clackVar2" startTime="9" direction="1" volumeScale="1.2" pitchScale="0.9"/>
+            <sound template="vibratingImp" startTime="4" direction="1" volumeScale="1.2" pitchScale="0.8"/>
+            <sound template="foldStartMed02" startTime="4" direction="1" volumeScale="3.2" pitchScale="0.7"/>
+            <sound template="clackVar2" startTime="4" direction="1" volumeScale="1.2" pitchScale="0.9"/>
             <sound template="trailerCloseImpact_01" startTime="9" direction="1" volumeScale="1.0" pitchScale="0.9"/>
-            <sound template="hingeImp" startTime="9.1" direction="0" volumeScale="0.7" pitchScale="0.8"/>
+            <sound template="hingeImp" startTime="4.1" direction="0" volumeScale="0.7" pitchScale="0.8"/>
         </animation>
     </animations>
     <cylindered>

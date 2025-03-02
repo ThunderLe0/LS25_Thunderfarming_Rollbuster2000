@@ -46,7 +46,7 @@
       <Custommap name="detailNormal" fileId="7"/>
       <Custommap name="detailDiffuse" fileId="22"/>
     </Material>
-    <Material name="rexius1230_metalPaintedBlack_mat" materialId="296" customShaderId="5">
+    <Material name="rexius1230_metalPaintedBlack_mat" materialId="7" customShaderId="5">
       <Texture fileId="2"/>
       <Normalmap fileId="3"/>
       <Glossmap fileId="4"/>
@@ -84,7 +84,7 @@
       <CustomParameter name="clearCoatIntensity" value="0.1"/>
       <CustomParameter name="clearCoatSmoothness" value="0.2"/>
     </Material>
-    <Material name="rexius1230_VAEDERSTAD_RED1_mat" materialId="291" customShaderId="5">
+    <Material name="rexius1230_VAEDERSTAD_RED1_mat" materialId="11" customShaderId="5">
       <Texture fileId="2"/>
       <Normalmap fileId="3"/>
       <Glossmap fileId="4"/>
@@ -138,7 +138,7 @@
 
   <Scene>
     <Shape name="rexius1230_main_component1" shapeId="1" dynamic="true" compound="true" collisionFilterGroup="0x10004" collisionFilterMask="0xfe3ffb83" clipDistance="300" nodeId="45" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="5">
-      <Shape name="rexius1230_vis" translation="0.079941 1.07759 3.26979" shapeId="2" clipDistance="300" nodeId="46" castsShadows="true" receiveShadows="true" skinBindNodeIds="46 50 51 53 114 116 117 119 159 161 164 167 168 169 170 174 177 180 184 185 187 199 201 205 207 210 213 221 227 228 250 254 272 276" materialIds="9,10,8,291,296,6">
+      <Shape name="rexius1230_vis" translation="0.079941 1.07759 3.26979" shapeId="2" clipDistance="300" nodeId="46" castsShadows="true" receiveShadows="true" skinBindNodeIds="46 50 51 53 114 116 117 119 159 161 164 167 168 169 170 174 177 180 184 185 187 199 201 205 207 210 213 221 227 228 250 254 272 276" materialIds="9,10,8,11,7,6">
         <TransformGroup name="attachable" translation="-0.079941 -1.07759 -3.26979" nodeId="47">
           <TransformGroup name="attacherJoint" translation="0 0.233597 3.84052" rotation="0 90 0" nodeId="48"/>
           <TransformGroup name="supportArmRot" translation="0.133998 0.516817 2.61079" rotation="1.63013 -0.000222 0.000108" nodeId="49">
